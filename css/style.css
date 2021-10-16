@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Festive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+.mainsec {
+  text-align: center;
+}
+
+.mainsec h2 {
+  margin: 0px;
+  color: #003300;
+}
+
+.mainsec p {
+  color: #003300;
+  margin: 0px;
+}
+
+.mainsec .innersec .label {
+  text-align: left;
+  padding-right: 2rem;
+  color: #003300;
+}
+
+.mainsec .innersec .input {
+  margin-left: 2rem;
+  color: #003300;
+  background-color: #e6e6ff;
+  font-family: 'Lora', serif;
+}
+
+.mainsec .innersec button {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  background-color: darkslategrey;
+  font-family: 'Festive', cursive;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Festive', cursive;
+  width: 560px;
+  height: 400px;
+  background-color: #BFDFEC;
+  background-repeat: repeat-x;
+  background-image: url("https://i.stack.imgur.com/b7z29.png");
+  -webkit-animation: movement 10s linear infinite;
+          animation: movement 10s linear infinite;
+}
+
+@-webkit-keyframes movement {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 560px 0px;
+  }
+}
+
+@keyframes movement {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 560px 0px;
+  }
+}
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  margin-top: -50px;
+  margin-left: -100px;
+  margin-bottom: -50px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  padding: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
